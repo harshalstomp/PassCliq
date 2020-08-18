@@ -1,2 +1,2 @@
 # PassPit
-A password fort knox still under development xD.
+A  credential fort knox still under development xD.
