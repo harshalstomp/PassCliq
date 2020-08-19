@@ -1,2 +1,2 @@
-# PassPit
+# PassCliq
 A  credential fort knox still under development xD.
