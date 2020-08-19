@@ -3,7 +3,7 @@ import tkinter as tk
 import tkinter.font as font
 import pandas as pd
 
-
+#Adding the credentials
 def getvals():
     try:
         vault = pd.read_csv('vault.csv')
@@ -34,18 +34,30 @@ def getvals():
         root3.destroy()
     
 
+#Creating and positioning the window
 root3 = Tk()
 root3.geometry('350x220')
+root3.resizable(False,False)
+windowWidth = root3.winfo_reqwidth()
+windowHeight = root3.winfo_reqheight()
+positionRight = int(root3.winfo_screenwidth()/2 - windowWidth/2)-120
+positionDown = int(root3.winfo_screenheight()/2 - windowHeight/2)-75
+root3.geometry("+{}+{}".format(positionRight, positionDown))
 
 Font1 = font.Font(family='Helvetica Neue', size=10, weight='bold'  )
 
 zz = Label(root3,text='')
 zz.grid(row=1)
 
+#Service_name Entry
 service_name = Label(root3, text="SERVICE NAME : ")
 service_name['font'] = Font1 
+
+#USername Entry
 username = Label(root3, text="      USERNAME : ")
 username['font'] = Font1 
+
+#PAssword Entry
 password = Label(root3, text="     PASSWORD : ")
 password['font'] = Font1 
 
