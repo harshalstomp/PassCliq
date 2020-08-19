@@ -4,7 +4,8 @@ import tkinter.font as font
 import random
 import pyperclip as pc
 import os
-### These fuctions are to generate the password.
+
+# These fuctions are to generate the password.
 def create_str(str_length):
     
     rem = []
@@ -38,8 +39,8 @@ def create_special_chars(special_length):
     return stringSpecial
 
 def generate_password():
-    pf =  create_lower(3) + create_cap(1)
-    pl = create_str(3) +create_num(2) + create_special_chars(2) + create_cap(1) 
+    pf =  create_lower(2) 
+    pl = create_str(4) +create_num(2) + create_special_chars(2) + create_cap(2) 
 
     random.shuffle(pf)
     random.shuffle(pl)
@@ -47,34 +48,45 @@ def generate_password():
     password1 = pf+pl
     password1 = ''.join(password1)
     return password1
-    
+
+#Generating the password    
 def generate():
     p = generate_password()
     my_label.config(text=p)
     my_label2.config(text = '')
 
+#Copying the password
 def copy():
     pc.copy(password1)
     my_label2.config(text = 'Copied!')
-    
+
+#Opening the database window    
 def pwdb():
     os.system('python pwdb.py')
     
+
 #GUI CODE
 
+#Creating and positioning the window
 global password
 root = Tk(className='PassKit-Password Generator and Keeper ')
-root.geometry('300x260')
+root.geometry('300x240')
+root.resizable(False,False)
+windowWidth = root.winfo_reqwidth()
+windowHeight = root.winfo_reqheight()
+positionRight = int(root.winfo_screenwidth()/2 - windowWidth/2)-120
+positionDown = int(root.winfo_screenheight()/2 - windowHeight/2)-75
+root.geometry("+{}+{}".format(positionRight, positionDown))
 
+#Password Label
 passFont1 = font.Font(family='Helvetica', size=15 )
 my_label = Label(root, text='------------')
 my_label.grid(row=0,column=0,padx=20,pady=50)
 my_label['font'] = passFont1
 
+#Copy button
 copy_btn = PhotoImage(file='images/copy.png')
 copy_image = Label(image = copy_btn)
-#copy_image.grid(row=0,column=1,padx=0,pady=0)
-
 copy_button = Button(root, image = copy_btn , command=copy, borderwidth = 0)
 copy_button.grid(row=0,column=1,padx=0,pady=0)
 
@@ -83,15 +95,18 @@ my_label2 = Label(root, text='')
 my_label2.grid(row=0,column=2)
 my_label2['font'] = Font2
 
+#Generate password button
 passFont = font.Font(family='Helvetica Neue', size=10, weight='bold'  )
 passButton = Button(root, text='Generate Password',command=generate,padx=30,pady=10,bg='#2b2b2b',fg='#ffffff',activebackground='#686868',activeforeground='#ffffff')
 passButton['font'] = passFont 
 passButton.grid(row=1,column=0,padx=20,pady=0,sticky='n')
 
+#Database button
 dbButton = Button(root, text='Password database',command=pwdb,padx=30,pady=10,bg='#2b2b2b',fg='#ffffff',activebackground='#686868',activeforeground='#ffffff')
 dbButton['font'] = passFont 
 dbButton.grid(row=2,column=0,padx=20,pady=10,sticky='n')
 
+#Exit button
 exit_btn = PhotoImage(file='images/exit.png')
 exit_image = Label(image = exit_btn)
 exit_button = Button(root, image = exit_btn , command=root.destroy, borderwidth = 0)
