@@ -1,6 +1,6 @@
 # PassCliq 
 
-PassCliq beacuse everything is just a click away!
+PassCliq because everything is just a click away!
 
 A credential fort knox's first version released.
 
@@ -94,6 +94,6 @@ Or, if you’re feeling lazy, create an issue and we’ll think about it.
 
 ## Contributors
 
-* @ harshalstomp
+* @harshalstomp
 
 
