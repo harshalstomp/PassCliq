@@ -11,7 +11,7 @@ PassCliq never shares the vault with the internet.
 
 ## Objective 
 
-I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :). 
+I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :smile:. 
 
 ## Contents
 * [Features](https://github.com/harshalstomp/PassCliq#features)
@@ -22,7 +22,8 @@ I was finding a hard time to manage all my gaming and other services credentials
   * [Adding Credentials](https://github.com/harshalstomp/PassCliq/blob/master/README.md#adding-credentials)
   * [Deleting Credentials](https://github.com/harshalstomp/PassCliq/blob/master/README.md#deleting-credentials)
   * [Accessing the Database](https://github.com/harshalstomp/PassCliq/blob/master/README.md#accessing-credentials)
-
+* [Development](https://github.com/harshalstomp/PassCliq#development)
+* [Contributors](https://github.com/harshalstomp/PassCliq#contributors)
 
 ## Features
 * Strong password generator which includes numbers,letters and symbols
@@ -72,4 +73,27 @@ You can delete the previously added credentials by entering the service name and
 You can view the credentials and access them here.
 
 ![__IMAGE__](https://github.com/harshalstomp/PassCliq/blob/master/Screenshots/Screenshot%20(74).png)
+
+
+## Development
+
+* This application is purely written in `Python`.
+* The packages used in this application are `TKinter`, `Pandas`, `Pyperclip`, `OS`, `pandastable` and `random`.
+* The VAULT is just a `.csv` file, it can be externally edited and accessed using `MSExcel`.
+
+## Code Reviews
+
+If you have any code improvements:
+
+* Clone [PassCliq](https://github.com/harshalstomp/PassCliq/)
+* Make your edits
+* Add your name to the contributors
+* Send a PR
+
+Or, if you’re feeling lazy, create an issue and we’ll think about it.
+
+## Contributors
+
+* @ harshalstomp
+
 
