@@ -4,14 +4,14 @@ PassCliq because everything is just a click away!
 
 A credential fort knox's first version released.
 
-PassCliq is an intuitive tool to generate strong passwords and preserving the credentials in the vault.
+PassCliq is an intuitive tool to generate strong passwords and for preserving the credentials in the vault.
 
 PassCliq never shares the vault with the internet.
 
 
 ## Objective 
 
-I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :smile:. 
+I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :smile:
 
 ## Contents
 * [Features](https://github.com/harshalstomp/PassCliq#features)
