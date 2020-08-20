@@ -8,10 +8,15 @@ PassCliq is an intuitive tool to generate strong passwords and preserving the cr
 
 PassCliq never shares the vault with the internet.
 
+
+## Objective 
+
+I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :). 
+
 ## Contents
 * [Features](https://github.com/harshalstomp/PassCliq#features)
   * [Future release](https://github.com/harshalstomp/PassCliq#features)
-* [Screenshots](https://github.com/harshalstomp/PassCliq#screenshots)
+* [Usage](https://github.com/harshalstomp/PassCliq#screenshots)
   * [Generating Password](https://github.com/harshalstomp/PassCliq/blob/master/README.md#generating-password)
   * [Database Window](https://github.com/harshalstomp/PassCliq/blob/master/README.md#the-database-window)
   * [Adding Credentials](https://github.com/harshalstomp/PassCliq/blob/master/README.md#adding-credentials)
@@ -31,7 +36,7 @@ PassCliq never shares the vault with the internet.
 * A password strength analyzer.
 
 
-## Screenshots
+## Usage
 
 ### Generating Password
 
