@@ -19,4 +19,7 @@ PassCliq never shares the vault with the internet.
 
 ### Future releases
 * AES Encryption System while storing the credentials in the CSV file.
-* A password strength analyzer. 
+* A password strength analyzer.
+
+## Screenshots
+
