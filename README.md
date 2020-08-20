@@ -94,6 +94,6 @@ Or, if you’re feeling lazy, create an issue and we’ll think about it.
 
 ## Contributors
 
-* @harshalstomp
+* [harshalstomp](https://github.com/harshalstomp/)
 
 
