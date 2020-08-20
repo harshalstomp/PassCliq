@@ -11,7 +11,7 @@ PassCliq never shares the vault with the internet.
 
 ## Objective 
 
-I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :). 
+I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :). 
 
 ## Contents
 * [Features](https://github.com/harshalstomp/PassCliq#features)
@@ -34,6 +34,7 @@ I was finding a hard time to manage all my gaming and other services credentials
 ### Future releases
 * AES Encryption System while storing the credentials in the CSV file.
 * A password strength analyzer.
+* Backup of the VAULT.
 
 
 ## Usage
