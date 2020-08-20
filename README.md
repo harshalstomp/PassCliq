@@ -11,7 +11,7 @@ PassCliq never shares the vault with the internet.
 
 ## Objective 
 
-I was finding a hard time to manage all my gaming and other services credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :smile:
+I was finding a hard time to manage all my gaming and other service credentials. The sole purpose of this application was to make credential management easy. I will be using this application to store all my drive, placement and gaming credentials. It is recommended to always have a backup of the vault file, so that in the case of a hard drive or OS failure the credentials are safe. Good luck using it :smile:
 
 ![__GIF__](https://github.com/harshalstomp/PassCliq/blob/master/Screenshots/PassCliq.gif)
 
@@ -35,9 +35,9 @@ I was finding a hard time to manage all my gaming and other services credentials
 * Can be run on any system where Python is installed
 
 ### Future releases
-* AES Encryption System while storing the credentials in the CSV file.
+* Advanced Encryption System(AES) while storing the credentials in the CSV file.
 * A password strength analyzer.
-* Backup of the VAULT.
+* Backup of the Vault.
 
 
 ## Usage
@@ -51,7 +51,7 @@ Generate a random strong password.
 
 ### The database window
 
-This window offer a variety of features like adding credentials, viewing credentials and deleting credentials.
+This window offers a variety of features like adding credentials, viewing credentials and deleting credentials.
 
 ![__IMAGE__](https://github.com/harshalstomp/PassCliq/blob/master/Screenshots/Screenshot%20(73).png)
 
