@@ -12,22 +12,24 @@ PassCliq never shares the vault with the internet.
 * [Features](https://github.com/harshalstomp/PassCliq#features)
   * [Future release](https://github.com/harshalstomp/PassCliq#features)
 * [Screenshots](https://github.com/harshalstomp/PassCliq#screenshots)
-  * [Generating Password]
-  * [Database Window]
-  * [Viewing the Database]
-  * [Adding Credentials]
-  * [Deleting Credentials]
+  * [Generating Password](https://github.com/harshalstomp/PassCliq/blob/master/README.md#generating-password)
+  * [Database Window](https://github.com/harshalstomp/PassCliq/blob/master/README.md#the-database-window)
+  * [Adding Credentials](https://github.com/harshalstomp/PassCliq/blob/master/README.md#adding-credentials)
+  * [Deleting Credentials](https://github.com/harshalstomp/PassCliq/blob/master/README.md#deleting-credentials)
+  * [Accessing the Database](https://github.com/harshalstomp/PassCliq/blob/master/README.md#accessing-credentials)
+
 
 ## Features
 * Strong password generator which includes numbers,letters and symbols
 * Simple and consistent UI
 * Readily accessible credential manager
-* Local database storage system(CSV)
+* Local database storage system
 * Can be run on any system where Python is installed
 
 ### Future releases
 * AES Encryption System while storing the credentials in the CSV file.
 * A password strength analyzer.
+
 
 ## Screenshots
 
